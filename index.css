@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.title-box {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0;
+  padding: 10px 20px;
+  border: 1px solid black;
+  font-size: 16px;
+}
+
+.title-box-01 {
+  background-color: rgb(255, 60, 0);
+  color: black;
+}
+
+.title-box-02 {
+  background-color: rgb(224, 12, 196);
+  color: rgba(0, 0, 0, 0.623);
+}
+
+.title-box-03 {
+  background-color: rgb(53, 30, 255);
+  color: blanchedalmond;
+  display:block;
+}
+
+.text-box {
+  margin-top: 62px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.col {
+  float: left;
+  background-color: blanchedalmond;
+  border: 2px solid black;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Desktop View */
+@media (min-width: 992px) {
+  .col-lg-4 {
+    width: 32%;
+    margin-left: 0.66%;
+    margin-right: 0.66%;
+  }
+} 
+
+/* Tablet View */
+@media (max-width: 991px) and (min-width: 786px) {
+  .col-md-6 {
+    width: 49%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+
+  .col-md-12 {
+    width: 100%;
+  }
+}  
+
+/* Mobile View */
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 100%;
+  }
+}  
+  
+    
+  
